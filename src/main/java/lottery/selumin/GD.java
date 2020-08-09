@@ -41,6 +41,14 @@ public class GD {
 		}
 	}
 
+	/**
+	 * 会员名称：lingran120
+	 * 预设密码：h523588
+	 * 会员类型：会员
+	 * 会员奖金：1850
+	 * 当前线路：https://s.gdbet999.com
+	 * @param args
+	 */
 	public static void main(String[] args) {
 
 		System.setProperty("webdriver.chrome.driver", Constant.DERIVER_PATH);
