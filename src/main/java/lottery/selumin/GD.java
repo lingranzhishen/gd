@@ -57,10 +57,10 @@ public class GD {
 		while (!login(driver)) {
 			;
 		}
-		refreshWait(driver);
+//		refreshWait(driver);
 		while (true) {
 			for(GDLotteryType gd:GDLotteryType.values()){
-				refreshWait(driver);
+				waitSec(2000);
 				uploadGdRecordType(driver,gd);
 			}
 		}
